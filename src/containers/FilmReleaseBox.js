@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import FilmList from '../components/FilmList'
+import MoreUpComingReleases from '../components/MoreUpcomingReleases'
 
 const FilmReleaseBox = () => {
     const [films, setFilms] = useState (
