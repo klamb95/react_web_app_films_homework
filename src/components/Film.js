@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Film = ({children}) => {
+const Film = ({name)) => {
     return(
         <>
-        <h4>(children)</h4>
+        <h4>{name}</h4>
         </>
     )
 }
