@@ -36,6 +36,8 @@ const FilmReleaseBox = () => {
         <>
         <h1>Upcoming Film Releases for UK</h1>
         <FilmList films={films}/>
+        <br></br>
+        <MoreUpComingReleases/>
         </>
     )
 }
