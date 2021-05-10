@@ -1,11 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
+import FilmReleaseBox from './containers/FilmReleaseBox'
 
 function App() {
   return (
-  <>
-  <p>Hello!</p>
-  </>
+    <FilmReleaseBox/>
   );
 }
 
