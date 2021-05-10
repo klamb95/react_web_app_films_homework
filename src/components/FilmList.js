@@ -7,4 +7,14 @@ const FilmList = ({films}) => {
             <Film name={film.name} key={film.id}>{film.name}</Film>
         )
     })
-}
+
+    return(
+        <>
+        {filmNodes}
+        </>
+    )
+
+};
+
+
+export default FilmList;
